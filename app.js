@@ -1,9 +1,4 @@
-console.log(document.querySelector('#banner').id = 'whoops');
-console.log(document.querySelector('#whoops').id = 'banner');
-console.log(document.querySelector('a').href);
-console.log(document.querySelector('a').title);
 
-const firstLink = document.querySelector('a');
 
 console.log(firstLink.href);
 console.log(firstLink.getAttribute('href'));
