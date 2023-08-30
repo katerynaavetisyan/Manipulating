@@ -1,11 +1,22 @@
-// const h1 = document.querySelectorAll('h1')
-// console.dir(h1)
-// console.log(document.querySelector('p').innerText = 'Happy Chicken');
-const allLinks = document.querySelectorAll('a');
-for (let link of allLinks) {
-    link.innerText = 'I am happy'
-}
+console.log(document.querySelector('#banner').id = 'whoops');
+console.log(document.querySelector('#whoops').id = 'banner');
+console.log(document.querySelector('a').href);
+console.log(document.querySelector('a').title);
 
-document.querySelector('p').innerHTML = '<b> Happiness</b>'
+const firstLink = document.querySelector('a');
 
-const test = document.querySelector('span').innerText = "Disgusting";
+console.log(firstLink.href);
+console.log(firstLink.getAttribute('href'));
+console.log(firstLink.getAttribute('href'));
+
+console.log(firstLink.getAttribute('title'));
+console.log(firstLink.setAttribute('href', 'http://www.google.com'));
+
+
+console.log(document.querySelectorAll('input')[1]);
+
+const input = document.querySelector('input[type="text"]');
+
+console.log(input.type = 'color '); input.type = 'color';
+
+input.setAttribute('type', 'text')
