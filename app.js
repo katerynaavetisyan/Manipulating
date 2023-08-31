@@ -1,6 +1,7 @@
-const picture = document.querySelector('img');
-picture.style.width = '150px';
-picture.style.borderRadius = '50%';
+const allLinks = document.querySelectoAll('a');
 
-const cont = document.querySelector('#container');
-cont.style.textAlign = 'center'
+for (let link of allLinks) {
+    link.style.color = 'lime';
+    link.style.textDecorationColor = 'green';
+    link.style.textDecorationStyle = 'wavy'
+}
