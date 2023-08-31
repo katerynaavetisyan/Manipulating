@@ -1,7 +1,9 @@
-const allLinks = document.querySelectoAll('a');
+const colors = ['red', 'orange', 'magenta', 'green', 'blue', 'indigo', 'violet'];
 
-for (let link of allLinks) {
-    link.style.color = 'lime';
-    link.style.textDecorationColor = 'green';
-    link.style.textDecorationStyle = 'wavy'
+
+const spans = document.querySelectorAll('span');
+
+
+for (let i = 0; i < spans.length; i++) {
+    spans[i].style.color = colors[i];
 }
